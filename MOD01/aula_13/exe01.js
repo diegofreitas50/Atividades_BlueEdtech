@@ -5,26 +5,26 @@
 //   ela deve crescer 0,5 cm. Crie um método bio que retorna 
 //   uma string com todas as informações da pessoa.
 
-const pessoa = {
-    nome: "diego",
-    idade: 15,
-    peso: 50,
-    altura: 160,
-    envelhecer: function(){
-        this.idade++;
-        if(this.idade < 22){
-            this.altura += 0.5;        
-        };
-    },
-    bio: function(){
-        return (`${this.nome}, com ${this.idade} de idade, tem ${this.peso} Kg, e mede ${this.altura} de altura`);
-    }
+// const pessoa = {
+//     nome: "diego",
+//     idade: 15,
+//     peso: 50,
+//     altura: 160,
+//     envelhecer: function(){
+//         this.idade++;
+//         if(this.idade < 22){
+//             this.altura += 0.5;        
+//         };
+//     },
+//     bio: function(){
+//         return (`${this.nome}, com ${this.idade} de idade, tem ${this.peso} Kg, e mede ${this.altura} de altura`);
+//     }
 
-};
+// };
 
 
-pessoa.envelhecer();
-console.log(pessoa.bio());
+// pessoa.envelhecer();
+// console.log(pessoa.bio());
 
 ///////////////////////////////
 
