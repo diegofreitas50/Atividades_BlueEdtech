@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: aqua;
+}
+
+#tituloDaPagina {
+    color: blueviolet;
+}
+
+section {
+    padding: 15px;
+    border: solid 1px red;
+    margin: 50px;
+}
